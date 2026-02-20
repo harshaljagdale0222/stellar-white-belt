@@ -1,27 +1,36 @@
 # Stellar White Belt 🚀
 
 ## Project
-This project connects a Stellar wallet using Freighter and allows users to view their public key, check XLM balance, and send XLM transactions on the testnet.
+This project is a simple Stellar dApp built using React + Vite.  
+It connects to the Freighter wallet, shows the public key and XLM balance, and allows sending XLM on testnet.
+
+---
 
 ## Features
-- Connect Freighter wallet
-- Display public key
-- Fetch and show XLM balance
-- Send XLM to another account
-- Show transaction status
 
-## How to Run
-1. npm install  
-2. npm run dev  
-3. Open http://localhost:5173  
+- Connect Freighter Wallet
+- Display Public Key
+- Show XLM Balance
+- Send XLM to another account
+- Show Transaction Success Message
+
+---
 
 ## Screenshots
 
 ### Wallet Connected
-![Wallet](wallet-connected.png)
+![Wallet Connected](wallet-connected.png)
 
-### Transaction Successful
-![Transaction](transaction-success.png)
+### Transaction Success
+![Transaction Success](transaction-success.png)
 
 ### Wallet Proof
-![Proof](wallet-proof.png)
+![Wallet Proof](wallet-proof.png)
+
+---
+
+## How to Run
+
+1. Install dependencies:
+```bash
+npm install
